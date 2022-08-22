@@ -1,0 +1,28 @@
+{
+    "name": "app/app",
+    "description": "A Simple Lightweight PHP MVC Framwork",
+    "type": "framwork",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Rabbi Hasan"
+        }
+    ],
+
+     "require": {
+        "pecee/simple-router": "dev-master",
+        "vlucas/phpdotenv": "5.4.x-dev"
+    },
+
+     "autoload": {
+        "psr-4": {
+            "App\\": "app\\"
+        },
+        "files" : [
+            "app/Base/functions.php"
+        ]
+    },
+
+    "minimum-stability": "dev"
+   
+}
